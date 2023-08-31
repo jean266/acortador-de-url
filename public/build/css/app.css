@@ -725,14 +725,14 @@ a {
   background-color: hsl(257, 27%, 26%);
   padding: 2.5rem;
   border-radius: 1rem;
-  background-image: url(../../../public/img/bg-shorten-mobile.svg);
+  background-image: url(/img/bg-shorten-mobile.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
 }
 @media (min-width: 768px) {
   .form {
-    background-image: url(../../../public/img/bg-shorten-desktop.svg);
+    background-image: url(/img/bg-shorten-desktop.svg);
     padding: 3.5rem 4rem;
     display: flex;
     gap: 2rem;

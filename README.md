@@ -40,7 +40,7 @@ Los usuarios deberían poder:
 ### Enlaces
 
 - URL de la solución: [Github](https://github.com/jean266/acortador-de-url.git)
-- URL del sitio en vivo: [Vencel](https://generador-de-consejos.vercel.app/)
+- URL del sitio en vivo: [Vencel](https://acortador-de-url.vercel.app/)
 
 ## Mi proceso
 
