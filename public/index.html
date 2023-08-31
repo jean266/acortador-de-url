@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+  <header class="header"> <!-- .header -->
+
+    <div class="header_header">
+      <div class="header_logo">
+        <img src="img/logo.svg" alt="logo">
+      </div>
+
+      <div class="header_icon" id="menu-mobil"> <!-- .header_icon -->
+        <i class='bx bx-menu' ></i>
+      </div> <!-- .header_icon -->
+      
+        <nav class="nav" id="nav" style="display: none;"> 
+
+          <div class="nav_options">
+            <p>Features</p>
+            <p>Pricing</p>
+            <p>Resources</p>
+          </div>
+    
+          <div class="nav_chech_account">
+            <div class="btn_login">
+              <p>Login</p>
+            </div>
+    
+            <div class="btn_sign-up">
+              <p>Sing Up</p>
+            </div>
+          </div>
+
+      </nav>
+
+    </div>
+
+
+  </header><!-- .header -->
+
+  <main class="content"> <!-- .content-->
+    
+    <section class="working"> <!-- .working -->
+      <img src="./img/illustration-working.svg" alt="illustration working" class="working_img">
+
+      <div class="working_content">
+        <h1>More than just shorter links</h1>
+        <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+
+        <button class="working_content-btn">Get Started</button>
+      </div>
+
+    </section> <!-- .working -->
+
+    <section class="shorter"> <!-- .shorter -->
+
+      <form class="form" id="form">
+        <div class="container_input">
+          <input type="text" name="link" id="link" placeholder="Shorten a link here...">
+        </div>
+
+        <input type="submit" value="Shorten It!">
+      </form>
+
+    </section> <!-- .shorter -->
+
+    <section class="advanced_statistics"> <!-- .advanced_statistics -->
+
+      
+    <section id="links">
+
+    </section>
+
+      <h2>Advanced Statistics</h2>
+      <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+
+      <article class="sections"> <!-- .sections -->
+
+        <div class="brand_recognition">
+          <div class="icon_sections">
+            <img src="./img/icon-brand-recognition.svg" alt="icon brand_recognition">
+          </div>
+
+          <h3>Brand Recognition</h3>
+          <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+        </div>
+
+        <hr class="sections_line">
+
+        <div class="detailed_records">
+          <div class="icon_sections">
+            <img src="./img/icon-detailed-records.svg" alt="icon detailed_records">
+          </div>
+
+          <h3>Detailed Records</h3>
+          <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+        </div>
+
+        <hr class="sections_line">
+
+        <div class="fully_customizable">
+          <div class="icon_sections">
+            <img src="./img/icon-fully-customizable.svg" alt="icon fully_customizable">
+          </div>
+
+          <h3>Fully Customizable</h3>
+          <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+        </div>
+
+      </article>  <!-- .sections -->
+
+    </section> <!-- .advanced -->
+
+    <section class="boost"> <!-- .boost -->
+      <h2>Boost your links today</h2>
+      <button>Get Started</button>
+    </section> <!-- .boost -->
+
+  </main> <!-- .content-->
+
+  <footer class="footer">
+
+  <div class="footer_footer">
+    
+    <div class="footer_logo">
+      <img src="./img/logo.svg" alt="logo">
+    </div>
+
+    <div class="footer_info">
+
+      <div class="footer_info-features">
+        <h4>Features</h4>
+
+        <a href="#">Link Shortening</a>
+        <a href="#">Branded Links</a>
+        <a href="#">Analytics</a>
+      </div>
+
+      <div class="footer_info-resources">
+        <h4>Resources</h4>
+
+        <a href="#">Blog</a>
+        <a href="#">Developers</a>
+        <a href="#">Support</a>
+      </div>
+
+      <div class="footer_info-company">
+        <h4>Company</h4>
+
+        <a href="#">About</a>
+        <a href="#">Our Team</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="social_media">
+
+        <i class='bx bxl-facebook-square facebook'></i>
+        <i class='bx bxl-twitter twitter' ></i>
+        <i class='bx bxl-pinterest pinterest' ></i>
+        <i class='bx bxl-instagram instagram' ></i>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  </footer>
+  
+  <script src="./build/js/app.js" type="module"></script>
+</body>
+</html>
